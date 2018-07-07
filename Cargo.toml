@@ -22,7 +22,7 @@ error-chain = "0.12"
 hex = "0.3"
 log = "0.4"
 prometheus = "0.4"
-rocksdb = "0.10"
+rocksdb = { path = "../rust-rocksdb" }
 rust-crypto = "0.2"
 serde = "1.0"
 serde_derive = "1.0"
